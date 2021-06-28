@@ -1,0 +1,2 @@
+AnhungControl:JoyStick:hipnuc_imu/imu_launch:hipnuc_imu/serial:hipnuc_imu/serial_imu:launch_start:move_robot
+-DCATKIN_DEVEL_PREFIX=/home/amy/Desktop/outdoorAGV/devel -DCMAKE_INSTALL_PREFIX=/home/amy/Desktop/outdoorAGV/install -G Unix Makefiles

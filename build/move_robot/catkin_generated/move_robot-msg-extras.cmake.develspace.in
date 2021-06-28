@@ -1,0 +1,2 @@
+set(move_robot_MESSAGE_FILES "/home/amy/Desktop/outdoorAGV/src/move_robot/msg/joystick.msg;/home/amy/Desktop/outdoorAGV/src/move_robot/msg/Node_recv.msg;/home/amy/Desktop/outdoorAGV/src/move_robot/msg/traffic_recv.msg;/home/amy/Desktop/outdoorAGV/src/move_robot/msg/state.msg;/home/amy/Desktop/outdoorAGV/src/move_robot/msg/Battery.msg;/home/amy/Desktop/outdoorAGV/src/move_robot/msg/setmap_ctr.msg")
+set(move_robot_SERVICE_FILES "")

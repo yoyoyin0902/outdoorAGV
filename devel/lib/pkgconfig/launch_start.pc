@@ -1,0 +1,8 @@
+prefix=/home/amy/Desktop/outdoorAGV/devel
+
+Name: launch_start
+Description: Description of launch_start
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

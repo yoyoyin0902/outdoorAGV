@@ -1,0 +1,2 @@
+set(AnhungControl_MESSAGE_FILES "/home/amy/Desktop/outdoorAGV/src/AnhungControl/msg/Node_recv.msg;/home/amy/Desktop/outdoorAGV/src/AnhungControl/msg/traffic_recv.msg;/home/amy/Desktop/outdoorAGV/src/AnhungControl/msg/state.msg;/home/amy/Desktop/outdoorAGV/src/AnhungControl/msg/joystick.msg;/home/amy/Desktop/outdoorAGV/src/AnhungControl/msg/Battery.msg;/home/amy/Desktop/outdoorAGV/src/AnhungControl/msg/setmap_ctr.msg")
+set(AnhungControl_SERVICE_FILES "")

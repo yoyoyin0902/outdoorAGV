@@ -1,0 +1,8 @@
+prefix=/home/amy/Desktop/outdoorAGV/devel
+
+Name: serial
+Description: Description of serial
+Version: 1.2.1
+Cflags: -I/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial/include
+Libs: -L${prefix}/lib -lserial -lrt -lpthread
+Requires: 

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/serial_example.dir/examples/serial_example.cc.o  -o /home/amy/Desktop/outdoor_AGV/devel/lib/serial/serial_example -Wl,-rpath,/home/amy/Desktop/outdoor_AGV/devel/lib /home/amy/Desktop/outdoor_AGV/devel/lib/libserial.so -lrt -lpthread 
