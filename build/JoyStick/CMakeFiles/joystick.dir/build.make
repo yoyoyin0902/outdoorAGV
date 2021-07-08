@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amy/Desktop/outdoor_AGV/src
+CMAKE_SOURCE_DIR = /home/amy/Desktop/outdoorAGV/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amy/Desktop/outdoor_AGV/build
+CMAKE_BINARY_DIR = /home/amy/Desktop/outdoorAGV/build
 
 # Include any dependencies generated for this target.
 include JoyStick/CMakeFiles/joystick.dir/depend.make
@@ -58,17 +58,17 @@ include JoyStick/CMakeFiles/joystick.dir/progress.make
 include JoyStick/CMakeFiles/joystick.dir/flags.make
 
 JoyStick/CMakeFiles/joystick.dir/src/joystick.cpp.o: JoyStick/CMakeFiles/joystick.dir/flags.make
-JoyStick/CMakeFiles/joystick.dir/src/joystick.cpp.o: /home/amy/Desktop/outdoor_AGV/src/JoyStick/src/joystick.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amy/Desktop/outdoor_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object JoyStick/CMakeFiles/joystick.dir/src/joystick.cpp.o"
-	cd /home/amy/Desktop/outdoor_AGV/build/JoyStick && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/joystick.dir/src/joystick.cpp.o -c /home/amy/Desktop/outdoor_AGV/src/JoyStick/src/joystick.cpp
+JoyStick/CMakeFiles/joystick.dir/src/joystick.cpp.o: /home/amy/Desktop/outdoorAGV/src/JoyStick/src/joystick.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amy/Desktop/outdoorAGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object JoyStick/CMakeFiles/joystick.dir/src/joystick.cpp.o"
+	cd /home/amy/Desktop/outdoorAGV/build/JoyStick && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/joystick.dir/src/joystick.cpp.o -c /home/amy/Desktop/outdoorAGV/src/JoyStick/src/joystick.cpp
 
 JoyStick/CMakeFiles/joystick.dir/src/joystick.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/joystick.dir/src/joystick.cpp.i"
-	cd /home/amy/Desktop/outdoor_AGV/build/JoyStick && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amy/Desktop/outdoor_AGV/src/JoyStick/src/joystick.cpp > CMakeFiles/joystick.dir/src/joystick.cpp.i
+	cd /home/amy/Desktop/outdoorAGV/build/JoyStick && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amy/Desktop/outdoorAGV/src/JoyStick/src/joystick.cpp > CMakeFiles/joystick.dir/src/joystick.cpp.i
 
 JoyStick/CMakeFiles/joystick.dir/src/joystick.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/joystick.dir/src/joystick.cpp.s"
-	cd /home/amy/Desktop/outdoor_AGV/build/JoyStick && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amy/Desktop/outdoor_AGV/src/JoyStick/src/joystick.cpp -o CMakeFiles/joystick.dir/src/joystick.cpp.s
+	cd /home/amy/Desktop/outdoorAGV/build/JoyStick && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amy/Desktop/outdoorAGV/src/JoyStick/src/joystick.cpp -o CMakeFiles/joystick.dir/src/joystick.cpp.s
 
 JoyStick/CMakeFiles/joystick.dir/src/joystick.cpp.o.requires:
 
@@ -88,32 +88,32 @@ joystick_OBJECTS = \
 # External object files for target joystick
 joystick_EXTERNAL_OBJECTS =
 
-/home/amy/Desktop/outdoor_AGV/devel/lib/JoyStick/joystick: JoyStick/CMakeFiles/joystick.dir/src/joystick.cpp.o
-/home/amy/Desktop/outdoor_AGV/devel/lib/JoyStick/joystick: JoyStick/CMakeFiles/joystick.dir/build.make
-/home/amy/Desktop/outdoor_AGV/devel/lib/JoyStick/joystick: /opt/ros/melodic/lib/libroscpp.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/JoyStick/joystick: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/JoyStick/joystick: /opt/ros/melodic/lib/librosconsole.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/JoyStick/joystick: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/JoyStick/joystick: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/JoyStick/joystick: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/JoyStick/joystick: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/JoyStick/joystick: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/JoyStick/joystick: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/JoyStick/joystick: /opt/ros/melodic/lib/librostime.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/JoyStick/joystick: /opt/ros/melodic/lib/libcpp_common.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/JoyStick/joystick: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/JoyStick/joystick: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/JoyStick/joystick: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/JoyStick/joystick: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/JoyStick/joystick: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/JoyStick/joystick: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/JoyStick/joystick: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/amy/Desktop/outdoor_AGV/devel/lib/JoyStick/joystick: JoyStick/CMakeFiles/joystick.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amy/Desktop/outdoor_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/amy/Desktop/outdoor_AGV/devel/lib/JoyStick/joystick"
-	cd /home/amy/Desktop/outdoor_AGV/build/JoyStick && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/joystick.dir/link.txt --verbose=$(VERBOSE)
+/home/amy/Desktop/outdoorAGV/devel/lib/JoyStick/joystick: JoyStick/CMakeFiles/joystick.dir/src/joystick.cpp.o
+/home/amy/Desktop/outdoorAGV/devel/lib/JoyStick/joystick: JoyStick/CMakeFiles/joystick.dir/build.make
+/home/amy/Desktop/outdoorAGV/devel/lib/JoyStick/joystick: /opt/ros/melodic/lib/libroscpp.so
+/home/amy/Desktop/outdoorAGV/devel/lib/JoyStick/joystick: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/amy/Desktop/outdoorAGV/devel/lib/JoyStick/joystick: /opt/ros/melodic/lib/librosconsole.so
+/home/amy/Desktop/outdoorAGV/devel/lib/JoyStick/joystick: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/amy/Desktop/outdoorAGV/devel/lib/JoyStick/joystick: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/amy/Desktop/outdoorAGV/devel/lib/JoyStick/joystick: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/amy/Desktop/outdoorAGV/devel/lib/JoyStick/joystick: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/amy/Desktop/outdoorAGV/devel/lib/JoyStick/joystick: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/amy/Desktop/outdoorAGV/devel/lib/JoyStick/joystick: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/amy/Desktop/outdoorAGV/devel/lib/JoyStick/joystick: /opt/ros/melodic/lib/librostime.so
+/home/amy/Desktop/outdoorAGV/devel/lib/JoyStick/joystick: /opt/ros/melodic/lib/libcpp_common.so
+/home/amy/Desktop/outdoorAGV/devel/lib/JoyStick/joystick: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/amy/Desktop/outdoorAGV/devel/lib/JoyStick/joystick: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/amy/Desktop/outdoorAGV/devel/lib/JoyStick/joystick: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/amy/Desktop/outdoorAGV/devel/lib/JoyStick/joystick: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/amy/Desktop/outdoorAGV/devel/lib/JoyStick/joystick: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/amy/Desktop/outdoorAGV/devel/lib/JoyStick/joystick: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/amy/Desktop/outdoorAGV/devel/lib/JoyStick/joystick: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/amy/Desktop/outdoorAGV/devel/lib/JoyStick/joystick: JoyStick/CMakeFiles/joystick.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amy/Desktop/outdoorAGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/amy/Desktop/outdoorAGV/devel/lib/JoyStick/joystick"
+	cd /home/amy/Desktop/outdoorAGV/build/JoyStick && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/joystick.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-JoyStick/CMakeFiles/joystick.dir/build: /home/amy/Desktop/outdoor_AGV/devel/lib/JoyStick/joystick
+JoyStick/CMakeFiles/joystick.dir/build: /home/amy/Desktop/outdoorAGV/devel/lib/JoyStick/joystick
 
 .PHONY : JoyStick/CMakeFiles/joystick.dir/build
 
@@ -122,10 +122,10 @@ JoyStick/CMakeFiles/joystick.dir/requires: JoyStick/CMakeFiles/joystick.dir/src/
 .PHONY : JoyStick/CMakeFiles/joystick.dir/requires
 
 JoyStick/CMakeFiles/joystick.dir/clean:
-	cd /home/amy/Desktop/outdoor_AGV/build/JoyStick && $(CMAKE_COMMAND) -P CMakeFiles/joystick.dir/cmake_clean.cmake
+	cd /home/amy/Desktop/outdoorAGV/build/JoyStick && $(CMAKE_COMMAND) -P CMakeFiles/joystick.dir/cmake_clean.cmake
 .PHONY : JoyStick/CMakeFiles/joystick.dir/clean
 
 JoyStick/CMakeFiles/joystick.dir/depend:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amy/Desktop/outdoor_AGV/src /home/amy/Desktop/outdoor_AGV/src/JoyStick /home/amy/Desktop/outdoor_AGV/build /home/amy/Desktop/outdoor_AGV/build/JoyStick /home/amy/Desktop/outdoor_AGV/build/JoyStick/CMakeFiles/joystick.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amy/Desktop/outdoorAGV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amy/Desktop/outdoorAGV/src /home/amy/Desktop/outdoorAGV/src/JoyStick /home/amy/Desktop/outdoorAGV/build /home/amy/Desktop/outdoorAGV/build/JoyStick /home/amy/Desktop/outdoorAGV/build/JoyStick/CMakeFiles/joystick.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : JoyStick/CMakeFiles/joystick.dir/depend
 

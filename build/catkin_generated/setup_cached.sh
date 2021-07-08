@@ -7,10 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/amy/Desktop/outdoorAGV/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/amy/Desktop/outdoorAGV/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/amy/Desktop/outdoorAGV/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/amy/Desktop/outdoorAGV/build'
-export PYTHONPATH="/home/amy/Desktop/outdoorAGV/devel/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES='/home/amy/Desktop/outdoorAGV/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/amy/Desktop/outdoor_AGV/src:/home/amy/Desktop/outdoorAGV/src:$ROS_PACKAGE_PATH"

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amy/Desktop/outdoor_AGV/src
+CMAKE_SOURCE_DIR = /home/amy/Desktop/outdoorAGV/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amy/Desktop/outdoor_AGV/build
+CMAKE_BINARY_DIR = /home/amy/Desktop/outdoorAGV/build
 
 # Utility rule file for run_tests_serial_gtest_serial-test-timer.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/amy/Desktop/outdoor_AGV/build
 include hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test-timer.dir/progress.make
 
 hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test-timer:
-	cd /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial/tests && ../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/amy/Desktop/outdoor_AGV/build/test_results/serial/gtest-serial-test-timer.xml "/home/amy/Desktop/outdoor_AGV/devel/lib/serial/serial-test-timer --gtest_output=xml:/home/amy/Desktop/outdoor_AGV/build/test_results/serial/gtest-serial-test-timer.xml"
+	cd /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial/tests && ../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/amy/Desktop/outdoorAGV/build/test_results/serial/gtest-serial-test-timer.xml "/home/amy/Desktop/outdoorAGV/devel/lib/serial/serial-test-timer --gtest_output=xml:/home/amy/Desktop/outdoorAGV/build/test_results/serial/gtest-serial-test-timer.xml"
 
 run_tests_serial_gtest_serial-test-timer: hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test-timer
 run_tests_serial_gtest_serial-test-timer: hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test-timer.dir/build.make
@@ -67,10 +67,10 @@ hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test-timer.dir/
 .PHONY : hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test-timer.dir/build
 
 hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test-timer.dir/clean:
-	cd /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial/tests && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_serial_gtest_serial-test-timer.dir/cmake_clean.cmake
+	cd /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial/tests && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_serial_gtest_serial-test-timer.dir/cmake_clean.cmake
 .PHONY : hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test-timer.dir/clean
 
 hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test-timer.dir/depend:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amy/Desktop/outdoor_AGV/src /home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial/tests /home/amy/Desktop/outdoor_AGV/build /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial/tests /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test-timer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amy/Desktop/outdoorAGV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amy/Desktop/outdoorAGV/src /home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial/tests /home/amy/Desktop/outdoorAGV/build /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial/tests /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test-timer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test-timer.dir/depend
 

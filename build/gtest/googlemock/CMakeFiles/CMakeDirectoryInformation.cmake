@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/googletest")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/amy/Desktop/outdoor_AGV/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/amy/Desktop/outdoorAGV/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

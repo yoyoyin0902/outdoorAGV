@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amy/Desktop/outdoor_AGV/src
+CMAKE_SOURCE_DIR = /home/amy/Desktop/outdoorAGV/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amy/Desktop/outdoor_AGV/build
+CMAKE_BINARY_DIR = /home/amy/Desktop/outdoorAGV/build
 
 # Include any dependencies generated for this target.
 include hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/depend.make
@@ -58,17 +58,17 @@ include hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/progress.make
 include hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/flags.make
 
 hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/sub_0x91.cpp.o: hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/flags.make
-hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/sub_0x91.cpp.o: /home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/src/sub_0x91.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amy/Desktop/outdoor_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/sub_0x91.cpp.o"
-	cd /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial_imu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sub_0x91.dir/src/sub_0x91.cpp.o -c /home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/src/sub_0x91.cpp
+hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/sub_0x91.cpp.o: /home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/src/sub_0x91.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amy/Desktop/outdoorAGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/sub_0x91.cpp.o"
+	cd /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial_imu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sub_0x91.dir/src/sub_0x91.cpp.o -c /home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/src/sub_0x91.cpp
 
 hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/sub_0x91.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sub_0x91.dir/src/sub_0x91.cpp.i"
-	cd /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial_imu && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/src/sub_0x91.cpp > CMakeFiles/sub_0x91.dir/src/sub_0x91.cpp.i
+	cd /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial_imu && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/src/sub_0x91.cpp > CMakeFiles/sub_0x91.dir/src/sub_0x91.cpp.i
 
 hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/sub_0x91.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sub_0x91.dir/src/sub_0x91.cpp.s"
-	cd /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial_imu && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/src/sub_0x91.cpp -o CMakeFiles/sub_0x91.dir/src/sub_0x91.cpp.s
+	cd /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial_imu && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/src/sub_0x91.cpp -o CMakeFiles/sub_0x91.dir/src/sub_0x91.cpp.s
 
 hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/sub_0x91.cpp.o.requires:
 
@@ -82,17 +82,17 @@ hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/sub_0x91.cpp.o.provides.build:
 
 
 hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/imu_data_decode.c.o: hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/flags.make
-hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/imu_data_decode.c.o: /home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/src/imu_data_decode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amy/Desktop/outdoor_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/imu_data_decode.c.o"
-	cd /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial_imu && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sub_0x91.dir/src/imu_data_decode.c.o   -c /home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/src/imu_data_decode.c
+hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/imu_data_decode.c.o: /home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/src/imu_data_decode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amy/Desktop/outdoorAGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/imu_data_decode.c.o"
+	cd /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial_imu && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sub_0x91.dir/src/imu_data_decode.c.o   -c /home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/src/imu_data_decode.c
 
 hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/imu_data_decode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sub_0x91.dir/src/imu_data_decode.c.i"
-	cd /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial_imu && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/src/imu_data_decode.c > CMakeFiles/sub_0x91.dir/src/imu_data_decode.c.i
+	cd /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial_imu && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/src/imu_data_decode.c > CMakeFiles/sub_0x91.dir/src/imu_data_decode.c.i
 
 hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/imu_data_decode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sub_0x91.dir/src/imu_data_decode.c.s"
-	cd /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial_imu && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/src/imu_data_decode.c -o CMakeFiles/sub_0x91.dir/src/imu_data_decode.c.s
+	cd /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial_imu && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/src/imu_data_decode.c -o CMakeFiles/sub_0x91.dir/src/imu_data_decode.c.s
 
 hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/imu_data_decode.c.o.requires:
 
@@ -106,17 +106,17 @@ hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/imu_data_decode.c.o.provides.b
 
 
 hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/packet.c.o: hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/flags.make
-hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/packet.c.o: /home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/src/packet.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amy/Desktop/outdoor_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/packet.c.o"
-	cd /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial_imu && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sub_0x91.dir/src/packet.c.o   -c /home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/src/packet.c
+hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/packet.c.o: /home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/src/packet.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amy/Desktop/outdoorAGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/packet.c.o"
+	cd /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial_imu && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sub_0x91.dir/src/packet.c.o   -c /home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/src/packet.c
 
 hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/packet.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sub_0x91.dir/src/packet.c.i"
-	cd /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial_imu && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/src/packet.c > CMakeFiles/sub_0x91.dir/src/packet.c.i
+	cd /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial_imu && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/src/packet.c > CMakeFiles/sub_0x91.dir/src/packet.c.i
 
 hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/packet.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sub_0x91.dir/src/packet.c.s"
-	cd /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial_imu && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/src/packet.c -o CMakeFiles/sub_0x91.dir/src/packet.c.s
+	cd /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial_imu && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/src/packet.c -o CMakeFiles/sub_0x91.dir/src/packet.c.s
 
 hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/packet.c.o.requires:
 
@@ -138,36 +138,36 @@ sub_0x91_OBJECTS = \
 # External object files for target sub_0x91
 sub_0x91_EXTERNAL_OBJECTS =
 
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91: hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/sub_0x91.cpp.o
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91: hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/imu_data_decode.c.o
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91: hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/packet.c.o
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91: hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/build.make
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91: /opt/ros/melodic/lib/libroscpp.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91: /opt/ros/melodic/lib/librosconsole.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91: /home/amy/Desktop/outdoor_AGV/devel/lib/libserial.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91: /usr/lib/x86_64-linux-gnu/librt.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91: /opt/ros/melodic/lib/librostime.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91: /opt/ros/melodic/lib/libcpp_common.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91: hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amy/Desktop/outdoor_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable /home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91"
-	cd /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial_imu && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sub_0x91.dir/link.txt --verbose=$(VERBOSE)
+/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91: hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/sub_0x91.cpp.o
+/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91: hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/imu_data_decode.c.o
+/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91: hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/src/packet.c.o
+/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91: hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/build.make
+/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91: /opt/ros/melodic/lib/libroscpp.so
+/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91: /opt/ros/melodic/lib/librosconsole.so
+/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91: /home/amy/Desktop/outdoorAGV/devel/lib/libserial.so
+/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91: /usr/lib/x86_64-linux-gnu/librt.so
+/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91: /opt/ros/melodic/lib/librostime.so
+/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91: /opt/ros/melodic/lib/libcpp_common.so
+/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91: hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amy/Desktop/outdoorAGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable /home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91"
+	cd /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial_imu && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sub_0x91.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/build: /home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_0x91
+hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/build: /home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_0x91
 
 .PHONY : hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/build
 
@@ -178,10 +178,10 @@ hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/requires: hipnuc_imu/serial_imu/CM
 .PHONY : hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/requires
 
 hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/clean:
-	cd /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial_imu && $(CMAKE_COMMAND) -P CMakeFiles/sub_0x91.dir/cmake_clean.cmake
+	cd /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial_imu && $(CMAKE_COMMAND) -P CMakeFiles/sub_0x91.dir/cmake_clean.cmake
 .PHONY : hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/clean
 
 hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/depend:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amy/Desktop/outdoor_AGV/src /home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu /home/amy/Desktop/outdoor_AGV/build /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial_imu /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amy/Desktop/outdoorAGV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amy/Desktop/outdoorAGV/src /home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu /home/amy/Desktop/outdoorAGV/build /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial_imu /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hipnuc_imu/serial_imu/CMakeFiles/sub_0x91.dir/depend
 

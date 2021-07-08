@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amy/Desktop/outdoor_AGV/src
+CMAKE_SOURCE_DIR = /home/amy/Desktop/outdoorAGV/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amy/Desktop/outdoor_AGV/build
+CMAKE_BINARY_DIR = /home/amy/Desktop/outdoorAGV/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/amy/Desktop/outdoor_AGV/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/amy/Desktop/outdoor_AGV/build/CMakeFiles /home/amy/Desktop/outdoor_AGV/build/JoyStick/CMakeFiles/progress.marks
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/amy/Desktop/outdoor_AGV/build/CMakeFiles 0
+	cd /home/amy/Desktop/outdoorAGV/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/amy/Desktop/outdoorAGV/build/CMakeFiles /home/amy/Desktop/outdoorAGV/build/JoyStick/CMakeFiles/progress.marks
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amy/Desktop/outdoorAGV/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/clean
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/preinstall
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/preinstall
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/amy/Desktop/outdoorAGV/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 JoyStick/CMakeFiles/JoyStick_gencpp.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/JoyStick_gencpp.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/JoyStick_gencpp.dir/rule
 .PHONY : JoyStick/CMakeFiles/JoyStick_gencpp.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ JoyStick_gencpp: JoyStick/CMakeFiles/JoyStick_gencpp.dir/rule
 
 # fast build rule for target.
 JoyStick_gencpp/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f JoyStick/CMakeFiles/JoyStick_gencpp.dir/build.make JoyStick/CMakeFiles/JoyStick_gencpp.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f JoyStick/CMakeFiles/JoyStick_gencpp.dir/build.make JoyStick/CMakeFiles/JoyStick_gencpp.dir/build
 .PHONY : JoyStick_gencpp/fast
 
 # Convenience name for target.
 JoyStick/CMakeFiles/JoyStick_generate_messages_cpp.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/JoyStick_generate_messages_cpp.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/JoyStick_generate_messages_cpp.dir/rule
 .PHONY : JoyStick/CMakeFiles/JoyStick_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ JoyStick_generate_messages_cpp: JoyStick/CMakeFiles/JoyStick_generate_messages_c
 
 # fast build rule for target.
 JoyStick_generate_messages_cpp/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f JoyStick/CMakeFiles/JoyStick_generate_messages_cpp.dir/build.make JoyStick/CMakeFiles/JoyStick_generate_messages_cpp.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f JoyStick/CMakeFiles/JoyStick_generate_messages_cpp.dir/build.make JoyStick/CMakeFiles/JoyStick_generate_messages_cpp.dir/build
 .PHONY : JoyStick_generate_messages_cpp/fast
 
 # Convenience name for target.
 JoyStick/CMakeFiles/JoyStick_geneus.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/JoyStick_geneus.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/JoyStick_geneus.dir/rule
 .PHONY : JoyStick/CMakeFiles/JoyStick_geneus.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ JoyStick_geneus: JoyStick/CMakeFiles/JoyStick_geneus.dir/rule
 
 # fast build rule for target.
 JoyStick_geneus/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f JoyStick/CMakeFiles/JoyStick_geneus.dir/build.make JoyStick/CMakeFiles/JoyStick_geneus.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f JoyStick/CMakeFiles/JoyStick_geneus.dir/build.make JoyStick/CMakeFiles/JoyStick_geneus.dir/build
 .PHONY : JoyStick_geneus/fast
 
 # Convenience name for target.
 JoyStick/CMakeFiles/JoyStick_generate_messages_eus.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/JoyStick_generate_messages_eus.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/JoyStick_generate_messages_eus.dir/rule
 .PHONY : JoyStick/CMakeFiles/JoyStick_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ JoyStick_generate_messages_eus: JoyStick/CMakeFiles/JoyStick_generate_messages_e
 
 # fast build rule for target.
 JoyStick_generate_messages_eus/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f JoyStick/CMakeFiles/JoyStick_generate_messages_eus.dir/build.make JoyStick/CMakeFiles/JoyStick_generate_messages_eus.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f JoyStick/CMakeFiles/JoyStick_generate_messages_eus.dir/build.make JoyStick/CMakeFiles/JoyStick_generate_messages_eus.dir/build
 .PHONY : JoyStick_generate_messages_eus/fast
 
 # Convenience name for target.
 JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_joystick.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_joystick.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_joystick.dir/rule
 .PHONY : JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_joystick.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ _JoyStick_generate_messages_check_deps_joystick: JoyStick/CMakeFiles/_JoyStick_g
 
 # fast build rule for target.
 _JoyStick_generate_messages_check_deps_joystick/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_joystick.dir/build.make JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_joystick.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_joystick.dir/build.make JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_joystick.dir/build
 .PHONY : _JoyStick_generate_messages_check_deps_joystick/fast
 
 # Convenience name for target.
 JoyStick/CMakeFiles/JoyStick_generate_messages_lisp.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/JoyStick_generate_messages_lisp.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/JoyStick_generate_messages_lisp.dir/rule
 .PHONY : JoyStick/CMakeFiles/JoyStick_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ JoyStick_generate_messages_lisp: JoyStick/CMakeFiles/JoyStick_generate_messages_
 
 # fast build rule for target.
 JoyStick_generate_messages_lisp/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f JoyStick/CMakeFiles/JoyStick_generate_messages_lisp.dir/build.make JoyStick/CMakeFiles/JoyStick_generate_messages_lisp.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f JoyStick/CMakeFiles/JoyStick_generate_messages_lisp.dir/build.make JoyStick/CMakeFiles/JoyStick_generate_messages_lisp.dir/build
 .PHONY : JoyStick_generate_messages_lisp/fast
 
 # Convenience name for target.
 JoyStick/CMakeFiles/JoyStick_generate_messages.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/JoyStick_generate_messages.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/JoyStick_generate_messages.dir/rule
 .PHONY : JoyStick/CMakeFiles/JoyStick_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ JoyStick_generate_messages: JoyStick/CMakeFiles/JoyStick_generate_messages.dir/r
 
 # fast build rule for target.
 JoyStick_generate_messages/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f JoyStick/CMakeFiles/JoyStick_generate_messages.dir/build.make JoyStick/CMakeFiles/JoyStick_generate_messages.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f JoyStick/CMakeFiles/JoyStick_generate_messages.dir/build.make JoyStick/CMakeFiles/JoyStick_generate_messages.dir/build
 .PHONY : JoyStick_generate_messages/fast
 
 # Convenience name for target.
 JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_Node_recv.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_Node_recv.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_Node_recv.dir/rule
 .PHONY : JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_Node_recv.dir/rule
 
 # Convenience name for target.
@@ -284,12 +284,12 @@ _JoyStick_generate_messages_check_deps_Node_recv: JoyStick/CMakeFiles/_JoyStick_
 
 # fast build rule for target.
 _JoyStick_generate_messages_check_deps_Node_recv/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_Node_recv.dir/build.make JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_Node_recv.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_Node_recv.dir/build.make JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_Node_recv.dir/build
 .PHONY : _JoyStick_generate_messages_check_deps_Node_recv/fast
 
 # Convenience name for target.
 JoyStick/CMakeFiles/JoyStick_genlisp.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/JoyStick_genlisp.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/JoyStick_genlisp.dir/rule
 .PHONY : JoyStick/CMakeFiles/JoyStick_genlisp.dir/rule
 
 # Convenience name for target.
@@ -299,12 +299,12 @@ JoyStick_genlisp: JoyStick/CMakeFiles/JoyStick_genlisp.dir/rule
 
 # fast build rule for target.
 JoyStick_genlisp/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f JoyStick/CMakeFiles/JoyStick_genlisp.dir/build.make JoyStick/CMakeFiles/JoyStick_genlisp.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f JoyStick/CMakeFiles/JoyStick_genlisp.dir/build.make JoyStick/CMakeFiles/JoyStick_genlisp.dir/build
 .PHONY : JoyStick_genlisp/fast
 
 # Convenience name for target.
 JoyStick/CMakeFiles/JoyStick_gennodejs.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/JoyStick_gennodejs.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/JoyStick_gennodejs.dir/rule
 .PHONY : JoyStick/CMakeFiles/JoyStick_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ JoyStick_gennodejs: JoyStick/CMakeFiles/JoyStick_gennodejs.dir/rule
 
 # fast build rule for target.
 JoyStick_gennodejs/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f JoyStick/CMakeFiles/JoyStick_gennodejs.dir/build.make JoyStick/CMakeFiles/JoyStick_gennodejs.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f JoyStick/CMakeFiles/JoyStick_gennodejs.dir/build.make JoyStick/CMakeFiles/JoyStick_gennodejs.dir/build
 .PHONY : JoyStick_gennodejs/fast
 
 # Convenience name for target.
 JoyStick/CMakeFiles/JoyStick_generate_messages_nodejs.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/JoyStick_generate_messages_nodejs.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/JoyStick_generate_messages_nodejs.dir/rule
 .PHONY : JoyStick/CMakeFiles/JoyStick_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -329,12 +329,12 @@ JoyStick_generate_messages_nodejs: JoyStick/CMakeFiles/JoyStick_generate_message
 
 # fast build rule for target.
 JoyStick_generate_messages_nodejs/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f JoyStick/CMakeFiles/JoyStick_generate_messages_nodejs.dir/build.make JoyStick/CMakeFiles/JoyStick_generate_messages_nodejs.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f JoyStick/CMakeFiles/JoyStick_generate_messages_nodejs.dir/build.make JoyStick/CMakeFiles/JoyStick_generate_messages_nodejs.dir/build
 .PHONY : JoyStick_generate_messages_nodejs/fast
 
 # Convenience name for target.
 JoyStick/CMakeFiles/joystick.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/joystick.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/joystick.dir/rule
 .PHONY : JoyStick/CMakeFiles/joystick.dir/rule
 
 # Convenience name for target.
@@ -344,12 +344,12 @@ joystick: JoyStick/CMakeFiles/joystick.dir/rule
 
 # fast build rule for target.
 joystick/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f JoyStick/CMakeFiles/joystick.dir/build.make JoyStick/CMakeFiles/joystick.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f JoyStick/CMakeFiles/joystick.dir/build.make JoyStick/CMakeFiles/joystick.dir/build
 .PHONY : joystick/fast
 
 # Convenience name for target.
 JoyStick/CMakeFiles/JoyStick_genpy.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/JoyStick_genpy.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/JoyStick_genpy.dir/rule
 .PHONY : JoyStick/CMakeFiles/JoyStick_genpy.dir/rule
 
 # Convenience name for target.
@@ -359,12 +359,12 @@ JoyStick_genpy: JoyStick/CMakeFiles/JoyStick_genpy.dir/rule
 
 # fast build rule for target.
 JoyStick_genpy/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f JoyStick/CMakeFiles/JoyStick_genpy.dir/build.make JoyStick/CMakeFiles/JoyStick_genpy.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f JoyStick/CMakeFiles/JoyStick_genpy.dir/build.make JoyStick/CMakeFiles/JoyStick_genpy.dir/build
 .PHONY : JoyStick_genpy/fast
 
 # Convenience name for target.
 JoyStick/CMakeFiles/JoyStick_generate_messages_py.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/JoyStick_generate_messages_py.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 JoyStick/CMakeFiles/JoyStick_generate_messages_py.dir/rule
 .PHONY : JoyStick/CMakeFiles/JoyStick_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -374,7 +374,7 @@ JoyStick_generate_messages_py: JoyStick/CMakeFiles/JoyStick_generate_messages_py
 
 # fast build rule for target.
 JoyStick_generate_messages_py/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f JoyStick/CMakeFiles/JoyStick_generate_messages_py.dir/build.make JoyStick/CMakeFiles/JoyStick_generate_messages_py.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f JoyStick/CMakeFiles/JoyStick_generate_messages_py.dir/build.make JoyStick/CMakeFiles/JoyStick_generate_messages_py.dir/build
 .PHONY : JoyStick_generate_messages_py/fast
 
 src/joystick.o: src/joystick.cpp.o
@@ -383,7 +383,7 @@ src/joystick.o: src/joystick.cpp.o
 
 # target to build an object file
 src/joystick.cpp.o:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f JoyStick/CMakeFiles/joystick.dir/build.make JoyStick/CMakeFiles/joystick.dir/src/joystick.cpp.o
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f JoyStick/CMakeFiles/joystick.dir/build.make JoyStick/CMakeFiles/joystick.dir/src/joystick.cpp.o
 .PHONY : src/joystick.cpp.o
 
 src/joystick.i: src/joystick.cpp.i
@@ -392,7 +392,7 @@ src/joystick.i: src/joystick.cpp.i
 
 # target to preprocess a source file
 src/joystick.cpp.i:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f JoyStick/CMakeFiles/joystick.dir/build.make JoyStick/CMakeFiles/joystick.dir/src/joystick.cpp.i
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f JoyStick/CMakeFiles/joystick.dir/build.make JoyStick/CMakeFiles/joystick.dir/src/joystick.cpp.i
 .PHONY : src/joystick.cpp.i
 
 src/joystick.s: src/joystick.cpp.s
@@ -401,7 +401,7 @@ src/joystick.s: src/joystick.cpp.s
 
 # target to generate assembly for a file
 src/joystick.cpp.s:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f JoyStick/CMakeFiles/joystick.dir/build.make JoyStick/CMakeFiles/joystick.dir/src/joystick.cpp.s
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f JoyStick/CMakeFiles/joystick.dir/build.make JoyStick/CMakeFiles/joystick.dir/src/joystick.cpp.s
 .PHONY : src/joystick.cpp.s
 
 # Help Target
@@ -445,6 +445,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/amy/Desktop/outdoorAGV/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

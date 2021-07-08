@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sub_spec.dir/src/sub_spec.cpp.o"
-  "/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_spec.pdb"
-  "/home/amy/Desktop/outdoor_AGV/devel/lib/serial_imu/sub_spec"
+  "/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_spec.pdb"
+  "/home/amy/Desktop/outdoorAGV/devel/lib/serial_imu/sub_spec"
 )
 
 # Per-language clean rules from dependency scanning.

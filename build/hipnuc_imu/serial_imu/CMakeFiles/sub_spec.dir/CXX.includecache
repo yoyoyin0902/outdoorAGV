@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/src/sub_spec.cpp
+/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/src/sub_spec.cpp
 ros/ros.h
 -
 iostream

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amy/Desktop/outdoor_AGV/src
+CMAKE_SOURCE_DIR = /home/amy/Desktop/outdoorAGV/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amy/Desktop/outdoor_AGV/build
+CMAKE_BINARY_DIR = /home/amy/Desktop/outdoorAGV/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/amy/Desktop/outdoor_AGV/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/amy/Desktop/outdoor_AGV/build/CMakeFiles /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/imu_launch/CMakeFiles/progress.marks
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/imu_launch/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/amy/Desktop/outdoor_AGV/build/CMakeFiles 0
+	cd /home/amy/Desktop/outdoorAGV/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/amy/Desktop/outdoorAGV/build/CMakeFiles /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/imu_launch/CMakeFiles/progress.marks
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/imu_launch/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amy/Desktop/outdoorAGV/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/imu_launch/clean
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/imu_launch/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/imu_launch/preinstall
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/imu_launch/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/imu_launch/preinstall
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/imu_launch/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/amy/Desktop/outdoorAGV/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hipnuc_imu/imu_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/imu_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/imu_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule
 .PHONY : hipnuc_imu/imu_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ _catkin_empty_exported_target: hipnuc_imu/imu_launch/CMakeFiles/_catkin_empty_ex
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f hipnuc_imu/imu_launch/CMakeFiles/_catkin_empty_exported_target.dir/build.make hipnuc_imu/imu_launch/CMakeFiles/_catkin_empty_exported_target.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f hipnuc_imu/imu_launch/CMakeFiles/_catkin_empty_exported_target.dir/build.make hipnuc_imu/imu_launch/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
 
 # Help Target
@@ -207,6 +207,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/amy/Desktop/outdoorAGV/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

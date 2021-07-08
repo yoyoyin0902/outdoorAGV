@@ -1,8 +1,8 @@
-# Install script for directory: /home/amy/Desktop/outdoor_AGV/src/move_robot
+# Install script for directory: /home/amy/Desktop/outdoorAGV/src/move_robot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/amy/Desktop/outdoor_AGV/install")
+  set(CMAKE_INSTALL_PREFIX "/home/amy/Desktop/outdoorAGV/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,59 +39,59 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/move_robot/msg" TYPE FILE FILES
-    "/home/amy/Desktop/outdoor_AGV/src/move_robot/msg/joystick.msg"
-    "/home/amy/Desktop/outdoor_AGV/src/move_robot/msg/Node_recv.msg"
-    "/home/amy/Desktop/outdoor_AGV/src/move_robot/msg/traffic_recv.msg"
-    "/home/amy/Desktop/outdoor_AGV/src/move_robot/msg/state.msg"
-    "/home/amy/Desktop/outdoor_AGV/src/move_robot/msg/Battery.msg"
-    "/home/amy/Desktop/outdoor_AGV/src/move_robot/msg/setmap_ctr.msg"
+    "/home/amy/Desktop/outdoorAGV/src/move_robot/msg/joystick.msg"
+    "/home/amy/Desktop/outdoorAGV/src/move_robot/msg/Node_recv.msg"
+    "/home/amy/Desktop/outdoorAGV/src/move_robot/msg/traffic_recv.msg"
+    "/home/amy/Desktop/outdoorAGV/src/move_robot/msg/state.msg"
+    "/home/amy/Desktop/outdoorAGV/src/move_robot/msg/Battery.msg"
+    "/home/amy/Desktop/outdoorAGV/src/move_robot/msg/setmap_ctr.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/move_robot/cmake" TYPE FILE FILES "/home/amy/Desktop/outdoor_AGV/build/move_robot/catkin_generated/installspace/move_robot-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/move_robot/cmake" TYPE FILE FILES "/home/amy/Desktop/outdoorAGV/build/move_robot/catkin_generated/installspace/move_robot-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/amy/Desktop/outdoor_AGV/devel/include/move_robot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/amy/Desktop/outdoorAGV/devel/include/move_robot")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/amy/Desktop/outdoor_AGV/devel/share/roseus/ros/move_robot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/amy/Desktop/outdoorAGV/devel/share/roseus/ros/move_robot")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/amy/Desktop/outdoor_AGV/devel/share/common-lisp/ros/move_robot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/amy/Desktop/outdoorAGV/devel/share/common-lisp/ros/move_robot")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/amy/Desktop/outdoor_AGV/devel/share/gennodejs/ros/move_robot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/amy/Desktop/outdoorAGV/devel/share/gennodejs/ros/move_robot")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/amy/Desktop/outdoor_AGV/devel/lib/python2.7/dist-packages/move_robot")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/amy/Desktop/outdoorAGV/devel/lib/python2.7/dist-packages/move_robot")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/amy/Desktop/outdoor_AGV/devel/lib/python2.7/dist-packages/move_robot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/amy/Desktop/outdoorAGV/devel/lib/python2.7/dist-packages/move_robot")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/amy/Desktop/outdoor_AGV/build/move_robot/catkin_generated/installspace/move_robot.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/amy/Desktop/outdoorAGV/build/move_robot/catkin_generated/installspace/move_robot.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/move_robot/cmake" TYPE FILE FILES "/home/amy/Desktop/outdoor_AGV/build/move_robot/catkin_generated/installspace/move_robot-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/move_robot/cmake" TYPE FILE FILES "/home/amy/Desktop/outdoorAGV/build/move_robot/catkin_generated/installspace/move_robot-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/move_robot/cmake" TYPE FILE FILES
-    "/home/amy/Desktop/outdoor_AGV/build/move_robot/catkin_generated/installspace/move_robotConfig.cmake"
-    "/home/amy/Desktop/outdoor_AGV/build/move_robot/catkin_generated/installspace/move_robotConfig-version.cmake"
+    "/home/amy/Desktop/outdoorAGV/build/move_robot/catkin_generated/installspace/move_robotConfig.cmake"
+    "/home/amy/Desktop/outdoorAGV/build/move_robot/catkin_generated/installspace/move_robotConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/move_robot" TYPE FILE FILES "/home/amy/Desktop/outdoor_AGV/src/move_robot/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/move_robot" TYPE FILE FILES "/home/amy/Desktop/outdoorAGV/src/move_robot/package.xml")
 endif()
 

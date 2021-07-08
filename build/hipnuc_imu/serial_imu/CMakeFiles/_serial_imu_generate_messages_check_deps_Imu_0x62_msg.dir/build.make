@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amy/Desktop/outdoor_AGV/src
+CMAKE_SOURCE_DIR = /home/amy/Desktop/outdoorAGV/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amy/Desktop/outdoor_AGV/build
+CMAKE_BINARY_DIR = /home/amy/Desktop/outdoorAGV/build
 
 # Utility rule file for _serial_imu_generate_messages_check_deps_Imu_0x62_msg.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/amy/Desktop/outdoor_AGV/build
 include hipnuc_imu/serial_imu/CMakeFiles/_serial_imu_generate_messages_check_deps_Imu_0x62_msg.dir/progress.make
 
 hipnuc_imu/serial_imu/CMakeFiles/_serial_imu_generate_messages_check_deps_Imu_0x62_msg:
-	cd /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial_imu && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py serial_imu /home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/msg/Imu_0x62_msg.msg serial_imu/Imu_0x91_msg:std_msgs/Header
+	cd /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial_imu && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py serial_imu /home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/msg/Imu_0x62_msg.msg serial_imu/Imu_0x91_msg:std_msgs/Header
 
 _serial_imu_generate_messages_check_deps_Imu_0x62_msg: hipnuc_imu/serial_imu/CMakeFiles/_serial_imu_generate_messages_check_deps_Imu_0x62_msg
 _serial_imu_generate_messages_check_deps_Imu_0x62_msg: hipnuc_imu/serial_imu/CMakeFiles/_serial_imu_generate_messages_check_deps_Imu_0x62_msg.dir/build.make
@@ -67,10 +67,10 @@ hipnuc_imu/serial_imu/CMakeFiles/_serial_imu_generate_messages_check_deps_Imu_0x
 .PHONY : hipnuc_imu/serial_imu/CMakeFiles/_serial_imu_generate_messages_check_deps_Imu_0x62_msg.dir/build
 
 hipnuc_imu/serial_imu/CMakeFiles/_serial_imu_generate_messages_check_deps_Imu_0x62_msg.dir/clean:
-	cd /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial_imu && $(CMAKE_COMMAND) -P CMakeFiles/_serial_imu_generate_messages_check_deps_Imu_0x62_msg.dir/cmake_clean.cmake
+	cd /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial_imu && $(CMAKE_COMMAND) -P CMakeFiles/_serial_imu_generate_messages_check_deps_Imu_0x62_msg.dir/cmake_clean.cmake
 .PHONY : hipnuc_imu/serial_imu/CMakeFiles/_serial_imu_generate_messages_check_deps_Imu_0x62_msg.dir/clean
 
 hipnuc_imu/serial_imu/CMakeFiles/_serial_imu_generate_messages_check_deps_Imu_0x62_msg.dir/depend:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amy/Desktop/outdoor_AGV/src /home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu /home/amy/Desktop/outdoor_AGV/build /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial_imu /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial_imu/CMakeFiles/_serial_imu_generate_messages_check_deps_Imu_0x62_msg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amy/Desktop/outdoorAGV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amy/Desktop/outdoorAGV/src /home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu /home/amy/Desktop/outdoorAGV/build /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial_imu /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial_imu/CMakeFiles/_serial_imu_generate_messages_check_deps_Imu_0x62_msg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hipnuc_imu/serial_imu/CMakeFiles/_serial_imu_generate_messages_check_deps_Imu_0x62_msg.dir/depend
 

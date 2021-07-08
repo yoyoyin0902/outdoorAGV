@@ -1,8 +1,8 @@
-# Install script for directory: /home/amy/Desktop/outdoor_AGV/src/launch_start
+# Install script for directory: /home/amy/Desktop/outdoorAGV/src/launch_start
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/amy/Desktop/outdoor_AGV/install")
+  set(CMAKE_INSTALL_PREFIX "/home/amy/Desktop/outdoorAGV/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/amy/Desktop/outdoor_AGV/build/launch_start/catkin_generated/installspace/launch_start.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/amy/Desktop/outdoorAGV/build/launch_start/catkin_generated/installspace/launch_start.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch_start/cmake" TYPE FILE FILES
-    "/home/amy/Desktop/outdoor_AGV/build/launch_start/catkin_generated/installspace/launch_startConfig.cmake"
-    "/home/amy/Desktop/outdoor_AGV/build/launch_start/catkin_generated/installspace/launch_startConfig-version.cmake"
+    "/home/amy/Desktop/outdoorAGV/build/launch_start/catkin_generated/installspace/launch_startConfig.cmake"
+    "/home/amy/Desktop/outdoorAGV/build/launch_start/catkin_generated/installspace/launch_startConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch_start" TYPE FILE FILES "/home/amy/Desktop/outdoor_AGV/src/launch_start/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch_start" TYPE FILE FILES "/home/amy/Desktop/outdoorAGV/src/launch_start/package.xml")
 endif()
 

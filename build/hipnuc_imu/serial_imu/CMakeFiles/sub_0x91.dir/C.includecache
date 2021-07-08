@@ -6,31 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/src/imu_data_decode.c
+/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/src/imu_data_decode.c
 string.h
 -
 stdio.h
 -
 packet.h
-/home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/src/packet.h
+/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/src/packet.h
 imu_data_decode.h
-/home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/src/imu_data_decode.h
+/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/src/imu_data_decode.h
 
-/home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/src/imu_data_decode.h
+/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/src/imu_data_decode.h
 stdint.h
 -
 stdbool.h
 -
 
-/home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/src/packet.c
+/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/src/packet.c
 string.h
 -
 stdio.h
 -
 packet.h
-/home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/src/packet.h
+/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/src/packet.h
 
-/home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/src/packet.h
+/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/src/packet.h
 stdint.h
 -
 stdbool.h

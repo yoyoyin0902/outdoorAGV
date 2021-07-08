@@ -1,8 +1,8 @@
-# Install script for directory: /home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial/tests
+# Install script for directory: /home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/amy/Desktop/outdoor_AGV/install")
+  set(CMAKE_INSTALL_PREFIX "/home/amy/Desktop/outdoorAGV/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

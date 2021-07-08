@@ -28,7 +28,6 @@ int main(int argc, char **argv)
 
     LoadTitlePath();
     CarParameterPATH = TitlePath + CarParameterPATH_Local;
-
     int check = LoadCarKind(CarParameterPATH,CarKind);
     while(!check && ros::ok())
     {
@@ -38,7 +37,7 @@ int main(int argc, char **argv)
         }
         ros::spinOnce();
     }
-
+    std::cout<<"=========test====="<<std::endl;
     switch(CarKind){
 
       case 3:
@@ -87,7 +86,7 @@ bool LoadCarKind(std::string file_buf,int &returnbuf)
 {
 
     std::fstream fin;
-
+    std::cout<<"file_buf = "<<file_buf<<std::endl;
     char *file = const_cast<char *>(file_buf.c_str());
     fin.open(file, std::fstream::in);
     if(!fin.is_open())
@@ -136,7 +135,7 @@ void LoadTitlePath()
         count++;
     }
 
-	TitlePath = "/" + recv_pkg[1] + "/" + recv_pkg[2] + "/" + recv_pkg[3] + "/" + recv_pkg[4];
+	TitlePath = "/" + recv_pkg[1] + "/" + recv_pkg[2] + "/" + recv_pkg[3] + "/" + recv_pkg[4] + "/" + recv_pkg[5];
 	std::cout<<"TitlePath  " <<TitlePath <<std::endl;
 
 }

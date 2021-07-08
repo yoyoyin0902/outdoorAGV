@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial/src/impl/list_ports/list_ports_linux.cc" "/home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial/CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o"
-  "/home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial/src/impl/unix.cc" "/home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial/CMakeFiles/serial.dir/src/impl/unix.cc.o"
-  "/home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial/src/serial.cc" "/home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial/CMakeFiles/serial.dir/src/serial.cc.o"
+  "/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial/src/impl/list_ports/list_ports_linux.cc" "/home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial/CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o"
+  "/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial/src/impl/unix.cc" "/home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial/CMakeFiles/serial.dir/src/impl/unix.cc.o"
+  "/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial/src/serial.cc" "/home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial/CMakeFiles/serial.dir/src/serial.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial/include"
+  "/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial/include"
   )
 
 # Targets to which this target links.

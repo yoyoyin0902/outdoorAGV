@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial/examples/serial_example.cc
+/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial/examples/serial_example.cc
 string
 -
 iostream
@@ -18,9 +18,9 @@ windows.h
 unistd.h
 -
 serial/serial.h
-/home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial/examples/serial/serial.h
+/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial/examples/serial/serial.h
 
-/home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial/include/serial/serial.h
+/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial/include/serial/serial.h
 limits
 -
 vector
@@ -38,7 +38,7 @@ stdexcept
 serial/v8stdint.h
 -
 
-/home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial/include/serial/v8stdint.h
+/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial/include/serial/v8stdint.h
 stddef.h
 -
 stdio.h

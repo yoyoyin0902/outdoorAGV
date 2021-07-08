@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1
 
-CXX_INCLUDES = -I/home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial/include -I/usr/src/googletest/googletest/include 
+CXX_INCLUDES = -I/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial/include -I/usr/src/googletest/googletest/include 
 

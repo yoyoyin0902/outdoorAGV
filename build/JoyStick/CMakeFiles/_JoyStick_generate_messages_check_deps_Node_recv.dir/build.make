@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amy/Desktop/outdoor_AGV/src
+CMAKE_SOURCE_DIR = /home/amy/Desktop/outdoorAGV/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amy/Desktop/outdoor_AGV/build
+CMAKE_BINARY_DIR = /home/amy/Desktop/outdoorAGV/build
 
 # Utility rule file for _JoyStick_generate_messages_check_deps_Node_recv.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/amy/Desktop/outdoor_AGV/build
 include JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_Node_recv.dir/progress.make
 
 JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_Node_recv:
-	cd /home/amy/Desktop/outdoor_AGV/build/JoyStick && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py JoyStick /home/amy/Desktop/outdoor_AGV/src/JoyStick/msg/Node_recv.msg 
+	cd /home/amy/Desktop/outdoorAGV/build/JoyStick && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py JoyStick /home/amy/Desktop/outdoorAGV/src/JoyStick/msg/Node_recv.msg 
 
 _JoyStick_generate_messages_check_deps_Node_recv: JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_Node_recv
 _JoyStick_generate_messages_check_deps_Node_recv: JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_Node_recv.dir/build.make
@@ -67,10 +67,10 @@ JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_Node_recv.dir/build: 
 .PHONY : JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_Node_recv.dir/build
 
 JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_Node_recv.dir/clean:
-	cd /home/amy/Desktop/outdoor_AGV/build/JoyStick && $(CMAKE_COMMAND) -P CMakeFiles/_JoyStick_generate_messages_check_deps_Node_recv.dir/cmake_clean.cmake
+	cd /home/amy/Desktop/outdoorAGV/build/JoyStick && $(CMAKE_COMMAND) -P CMakeFiles/_JoyStick_generate_messages_check_deps_Node_recv.dir/cmake_clean.cmake
 .PHONY : JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_Node_recv.dir/clean
 
 JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_Node_recv.dir/depend:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amy/Desktop/outdoor_AGV/src /home/amy/Desktop/outdoor_AGV/src/JoyStick /home/amy/Desktop/outdoor_AGV/build /home/amy/Desktop/outdoor_AGV/build/JoyStick /home/amy/Desktop/outdoor_AGV/build/JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_Node_recv.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amy/Desktop/outdoorAGV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amy/Desktop/outdoorAGV/src /home/amy/Desktop/outdoorAGV/src/JoyStick /home/amy/Desktop/outdoorAGV/build /home/amy/Desktop/outdoorAGV/build/JoyStick /home/amy/Desktop/outdoorAGV/build/JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_Node_recv.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : JoyStick/CMakeFiles/_JoyStick_generate_messages_check_deps_Node_recv.dir/depend
 

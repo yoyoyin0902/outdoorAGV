@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/amy/Desktop/outdoor_AGV/devel/include/serial_imu/Imu_0x91_msg.h
+/home/amy/Desktop/outdoorAGV/devel/include/serial_imu/Imu_0x91_msg.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial/include/serial/serial.h
+/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial/include/serial/serial.h
 limits
 -
 vector
@@ -42,7 +42,7 @@ stdexcept
 serial/v8stdint.h
 -
 
-/home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial/include/serial/v8stdint.h
+/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial/include/serial/v8stdint.h
 stddef.h
 -
 stdio.h
@@ -50,19 +50,19 @@ stdio.h
 stdint.h
 -
 
-/home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/src/imu_data_decode.h
+/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/src/imu_data_decode.h
 stdint.h
 -
 stdbool.h
 -
 
-/home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/src/packet.h
+/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/src/packet.h
 stdint.h
 -
 stdbool.h
 -
 
-/home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/src/serial_imu.cpp
+/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/src/serial_imu.cpp
 ros/ros.h
 -
 serial/serial.h
@@ -92,9 +92,9 @@ stdint.h
 stdbool.h
 -
 packet.h
-/home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/src/packet.h
+/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/src/packet.h
 imu_data_decode.h
-/home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial_imu/src/imu_data_decode.h
+/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial_imu/src/imu_data_decode.h
 
 /opt/ros/melodic/include/geometry_msgs/Quaternion.h
 string

@@ -230,6 +230,12 @@ Eigen3_DIR:PATH=/usr/lib/cmake/eigen3
 //The directory containing a CMake configuration file for GMock.
 GMock_DIR:PATH=GMock_DIR-NOTFOUND
 
+//Value Computed by CMake
+GPS_pkg_BINARY_DIR:STATIC=/home/amy/Desktop/outdoorAGV/build/GPS_pkg
+
+//Value Computed by CMake
+GPS_pkg_SOURCE_DIR:STATIC=/home/amy/Desktop/outdoorAGV/src/GPS_pkg
+
 //Path to a file.
 GTEST_INCLUDE_DIR:PATH=/usr/include
 
@@ -1123,7 +1129,7 @@ xmlrpcpp_DIR:PATH=/opt/ros/melodic/share/xmlrpcpp/cmake
 
 //catkin environment
 CATKIN_ENV:INTERNAL=/home/amy/Desktop/outdoorAGV/build/catkin_generated/env_cached.sh
-CATKIN_TEST_RESULTS_DIR:INTERNAL=/home/amy/Desktop/outdoor_AGV/build/test_results
+CATKIN_TEST_RESULTS_DIR:INTERNAL=/home/amy/Desktop/outdoorAGV/build/test_results
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
@@ -1206,7 +1212,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/amy/Desktop/outdoor_AGV/src
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/amy/Desktop/outdoorAGV/src
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -1226,7 +1232,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

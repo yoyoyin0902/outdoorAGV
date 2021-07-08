@@ -1,8 +1,8 @@
-# Install script for directory: /home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/imu_launch
+# Install script for directory: /home/amy/Desktop/outdoorAGV/src/hipnuc_imu/imu_launch
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/amy/Desktop/outdoor_AGV/install")
+  set(CMAKE_INSTALL_PREFIX "/home/amy/Desktop/outdoorAGV/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/imu_launch/catkin_generated/installspace/imu_launch.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/amy/Desktop/outdoorAGV/build/hipnuc_imu/imu_launch/catkin_generated/installspace/imu_launch.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_launch/cmake" TYPE FILE FILES
-    "/home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/imu_launch/catkin_generated/installspace/imu_launchConfig.cmake"
-    "/home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/imu_launch/catkin_generated/installspace/imu_launchConfig-version.cmake"
+    "/home/amy/Desktop/outdoorAGV/build/hipnuc_imu/imu_launch/catkin_generated/installspace/imu_launchConfig.cmake"
+    "/home/amy/Desktop/outdoorAGV/build/hipnuc_imu/imu_launch/catkin_generated/installspace/imu_launchConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_launch" TYPE FILE FILES "/home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/imu_launch/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/imu_launch" TYPE FILE FILES "/home/amy/Desktop/outdoorAGV/src/hipnuc_imu/imu_launch/package.xml")
 endif()
 

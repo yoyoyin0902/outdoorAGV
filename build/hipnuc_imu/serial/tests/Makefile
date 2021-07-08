@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amy/Desktop/outdoor_AGV/src
+CMAKE_SOURCE_DIR = /home/amy/Desktop/outdoorAGV/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amy/Desktop/outdoor_AGV/build
+CMAKE_BINARY_DIR = /home/amy/Desktop/outdoorAGV/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/amy/Desktop/outdoor_AGV/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/amy/Desktop/outdoor_AGV/build/CMakeFiles /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial/tests/CMakeFiles/progress.marks
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/amy/Desktop/outdoor_AGV/build/CMakeFiles 0
+	cd /home/amy/Desktop/outdoorAGV/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/amy/Desktop/outdoorAGV/build/CMakeFiles /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial/tests/CMakeFiles/progress.marks
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amy/Desktop/outdoorAGV/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/clean
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/preinstall
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/preinstall
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/amy/Desktop/outdoorAGV/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial_gtest.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial_gtest.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial_gtest.dir/rule
 .PHONY : hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial_gtest.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ _run_tests_serial_gtest: hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial_gt
 
 # fast build rule for target.
 _run_tests_serial_gtest/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial_gtest.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial_gtest.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial_gtest.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial_gtest.dir/build
 .PHONY : _run_tests_serial_gtest/fast
 
 # Convenience name for target.
 hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest.dir/rule
 .PHONY : hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ run_tests_serial_gtest: hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtes
 
 # fast build rule for target.
 run_tests_serial_gtest/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest.dir/build
 .PHONY : run_tests_serial_gtest/fast
 
 # Convenience name for target.
 hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial_gtest_serial-test-timer.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial_gtest_serial-test-timer.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial_gtest_serial-test-timer.dir/rule
 .PHONY : hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial_gtest_serial-test-timer.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ _run_tests_serial_gtest_serial-test-timer: hipnuc_imu/serial/tests/CMakeFiles/_r
 
 # fast build rule for target.
 _run_tests_serial_gtest_serial-test-timer/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial_gtest_serial-test-timer.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial_gtest_serial-test-timer.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial_gtest_serial-test-timer.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial_gtest_serial-test-timer.dir/build
 .PHONY : _run_tests_serial_gtest_serial-test-timer/fast
 
 # Convenience name for target.
 hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/rule
 .PHONY : hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ serial-test: hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/rule
 
 # fast build rule for target.
 serial-test/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/build
 .PHONY : serial-test/fast
 
 # Convenience name for target.
 hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test.dir/rule
 .PHONY : hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ run_tests_serial_gtest_serial-test: hipnuc_imu/serial/tests/CMakeFiles/run_tests
 
 # fast build rule for target.
 run_tests_serial_gtest_serial-test/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test.dir/build
 .PHONY : run_tests_serial_gtest_serial-test/fast
 
 # Convenience name for target.
 hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial.dir/rule
 .PHONY : hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ run_tests_serial: hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial.dir/rule
 
 # fast build rule for target.
 run_tests_serial/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial.dir/build
 .PHONY : run_tests_serial/fast
 
 # Convenience name for target.
 hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial_gtest_serial-test.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial_gtest_serial-test.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial_gtest_serial-test.dir/rule
 .PHONY : hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial_gtest_serial-test.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ _run_tests_serial_gtest_serial-test: hipnuc_imu/serial/tests/CMakeFiles/_run_tes
 
 # fast build rule for target.
 _run_tests_serial_gtest_serial-test/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial_gtest_serial-test.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial_gtest_serial-test.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial_gtest_serial-test.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial_gtest_serial-test.dir/build
 .PHONY : _run_tests_serial_gtest_serial-test/fast
 
 # Convenience name for target.
 hipnuc_imu/serial/tests/CMakeFiles/clean_test_results_serial.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/CMakeFiles/clean_test_results_serial.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/CMakeFiles/clean_test_results_serial.dir/rule
 .PHONY : hipnuc_imu/serial/tests/CMakeFiles/clean_test_results_serial.dir/rule
 
 # Convenience name for target.
@@ -284,12 +284,12 @@ clean_test_results_serial: hipnuc_imu/serial/tests/CMakeFiles/clean_test_results
 
 # fast build rule for target.
 clean_test_results_serial/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/clean_test_results_serial.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/clean_test_results_serial.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/clean_test_results_serial.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/clean_test_results_serial.dir/build
 .PHONY : clean_test_results_serial/fast
 
 # Convenience name for target.
 hipnuc_imu/serial/tests/CMakeFiles/serial-test-timer.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/CMakeFiles/serial-test-timer.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/CMakeFiles/serial-test-timer.dir/rule
 .PHONY : hipnuc_imu/serial/tests/CMakeFiles/serial-test-timer.dir/rule
 
 # Convenience name for target.
@@ -299,12 +299,12 @@ serial-test-timer: hipnuc_imu/serial/tests/CMakeFiles/serial-test-timer.dir/rule
 
 # fast build rule for target.
 serial-test-timer/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/serial-test-timer.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/serial-test-timer.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/serial-test-timer.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/serial-test-timer.dir/build
 .PHONY : serial-test-timer/fast
 
 # Convenience name for target.
 hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test-timer.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test-timer.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test-timer.dir/rule
 .PHONY : hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test-timer.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ run_tests_serial_gtest_serial-test-timer: hipnuc_imu/serial/tests/CMakeFiles/run
 
 # fast build rule for target.
 run_tests_serial_gtest_serial-test-timer/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test-timer.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test-timer.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test-timer.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/run_tests_serial_gtest_serial-test-timer.dir/build
 .PHONY : run_tests_serial_gtest_serial-test-timer/fast
 
 # Convenience name for target.
 hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial.dir/rule:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial.dir/rule
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f CMakeFiles/Makefile2 hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial.dir/rule
 .PHONY : hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial.dir/rule
 
 # Convenience name for target.
@@ -329,7 +329,7 @@ _run_tests_serial: hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial.dir/rule
 
 # fast build rule for target.
 _run_tests_serial/fast:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial.dir/build
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/_run_tests_serial.dir/build
 .PHONY : _run_tests_serial/fast
 
 unit/unix_timer_tests.o: unit/unix_timer_tests.cc.o
@@ -338,7 +338,7 @@ unit/unix_timer_tests.o: unit/unix_timer_tests.cc.o
 
 # target to build an object file
 unit/unix_timer_tests.cc.o:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/serial-test-timer.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/serial-test-timer.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o
 .PHONY : unit/unix_timer_tests.cc.o
 
 unit/unix_timer_tests.i: unit/unix_timer_tests.cc.i
@@ -347,7 +347,7 @@ unit/unix_timer_tests.i: unit/unix_timer_tests.cc.i
 
 # target to preprocess a source file
 unit/unix_timer_tests.cc.i:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/serial-test-timer.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.i
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/serial-test-timer.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.i
 .PHONY : unit/unix_timer_tests.cc.i
 
 unit/unix_timer_tests.s: unit/unix_timer_tests.cc.s
@@ -356,7 +356,7 @@ unit/unix_timer_tests.s: unit/unix_timer_tests.cc.s
 
 # target to generate assembly for a file
 unit/unix_timer_tests.cc.s:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/serial-test-timer.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.s
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/serial-test-timer.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.s
 .PHONY : unit/unix_timer_tests.cc.s
 
 unix_serial_tests.o: unix_serial_tests.cc.o
@@ -365,7 +365,7 @@ unix_serial_tests.o: unix_serial_tests.cc.o
 
 # target to build an object file
 unix_serial_tests.cc.o:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o
 .PHONY : unix_serial_tests.cc.o
 
 unix_serial_tests.i: unix_serial_tests.cc.i
@@ -374,7 +374,7 @@ unix_serial_tests.i: unix_serial_tests.cc.i
 
 # target to preprocess a source file
 unix_serial_tests.cc.i:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.i
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.i
 .PHONY : unix_serial_tests.cc.i
 
 unix_serial_tests.s: unix_serial_tests.cc.s
@@ -383,7 +383,7 @@ unix_serial_tests.s: unix_serial_tests.cc.s
 
 # target to generate assembly for a file
 unix_serial_tests.cc.s:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.s
+	cd /home/amy/Desktop/outdoorAGV/build && $(MAKE) -f hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/build.make hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.s
 .PHONY : unix_serial_tests.cc.s
 
 # Help Target
@@ -427,6 +427,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/amy/Desktop/outdoorAGV/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

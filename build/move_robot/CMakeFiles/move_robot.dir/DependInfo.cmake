@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/amy/Desktop/outdoor_AGV/src/move_robot/src/move_robot.cpp" "/home/amy/Desktop/outdoor_AGV/build/move_robot/CMakeFiles/move_robot.dir/src/move_robot.cpp.o"
+  "/home/amy/Desktop/outdoorAGV/src/move_robot/src/move_robot.cpp" "/home/amy/Desktop/outdoorAGV/build/move_robot/CMakeFiles/move_robot.dir/src/move_robot.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +17,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/amy/Desktop/outdoor_AGV/devel/include"
-  "/home/amy/Desktop/outdoor_AGV/src/move_robot/include"
+  "/home/amy/Desktop/outdoorAGV/devel/include"
+  "/home/amy/Desktop/outdoorAGV/src/move_robot/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/opencv"

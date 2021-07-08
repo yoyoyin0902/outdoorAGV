@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amy/Desktop/outdoor_AGV/src
+CMAKE_SOURCE_DIR = /home/amy/Desktop/outdoorAGV/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amy/Desktop/outdoor_AGV/build
+CMAKE_BINARY_DIR = /home/amy/Desktop/outdoorAGV/build
 
 # Include any dependencies generated for this target.
 include hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/depend.make
@@ -58,17 +58,17 @@ include hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/progress.make
 include hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/flags.make
 
 hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o: hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/flags.make
-hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o: /home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial/tests/unix_serial_tests.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amy/Desktop/outdoor_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o"
-	cd /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serial-test.dir/unix_serial_tests.cc.o -c /home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial/tests/unix_serial_tests.cc
+hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o: /home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial/tests/unix_serial_tests.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amy/Desktop/outdoorAGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o"
+	cd /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serial-test.dir/unix_serial_tests.cc.o -c /home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial/tests/unix_serial_tests.cc
 
 hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serial-test.dir/unix_serial_tests.cc.i"
-	cd /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial/tests/unix_serial_tests.cc > CMakeFiles/serial-test.dir/unix_serial_tests.cc.i
+	cd /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial/tests/unix_serial_tests.cc > CMakeFiles/serial-test.dir/unix_serial_tests.cc.i
 
 hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serial-test.dir/unix_serial_tests.cc.s"
-	cd /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial/tests/unix_serial_tests.cc -o CMakeFiles/serial-test.dir/unix_serial_tests.cc.s
+	cd /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial/tests/unix_serial_tests.cc -o CMakeFiles/serial-test.dir/unix_serial_tests.cc.s
 
 hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o.requires:
 
@@ -88,16 +88,16 @@ serial__test_OBJECTS = \
 # External object files for target serial-test
 serial__test_EXTERNAL_OBJECTS =
 
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial/serial-test: hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial/serial-test: hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/build.make
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial/serial-test: gtest/googlemock/gtest/libgtest.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial/serial-test: /home/amy/Desktop/outdoor_AGV/devel/lib/libserial.so
-/home/amy/Desktop/outdoor_AGV/devel/lib/serial/serial-test: hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amy/Desktop/outdoor_AGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/amy/Desktop/outdoor_AGV/devel/lib/serial/serial-test"
-	cd /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/serial-test.dir/link.txt --verbose=$(VERBOSE)
+/home/amy/Desktop/outdoorAGV/devel/lib/serial/serial-test: hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o
+/home/amy/Desktop/outdoorAGV/devel/lib/serial/serial-test: hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/build.make
+/home/amy/Desktop/outdoorAGV/devel/lib/serial/serial-test: gtest/googlemock/gtest/libgtest.so
+/home/amy/Desktop/outdoorAGV/devel/lib/serial/serial-test: /home/amy/Desktop/outdoorAGV/devel/lib/libserial.so
+/home/amy/Desktop/outdoorAGV/devel/lib/serial/serial-test: hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amy/Desktop/outdoorAGV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/amy/Desktop/outdoorAGV/devel/lib/serial/serial-test"
+	cd /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/serial-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/build: /home/amy/Desktop/outdoor_AGV/devel/lib/serial/serial-test
+hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/build: /home/amy/Desktop/outdoorAGV/devel/lib/serial/serial-test
 
 .PHONY : hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/build
 
@@ -106,10 +106,10 @@ hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/requires: hipnuc_imu/serial/t
 .PHONY : hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/requires
 
 hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/clean:
-	cd /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial/tests && $(CMAKE_COMMAND) -P CMakeFiles/serial-test.dir/cmake_clean.cmake
+	cd /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial/tests && $(CMAKE_COMMAND) -P CMakeFiles/serial-test.dir/cmake_clean.cmake
 .PHONY : hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/clean
 
 hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/depend:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amy/Desktop/outdoor_AGV/src /home/amy/Desktop/outdoor_AGV/src/hipnuc_imu/serial/tests /home/amy/Desktop/outdoor_AGV/build /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial/tests /home/amy/Desktop/outdoor_AGV/build/hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amy/Desktop/outdoorAGV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amy/Desktop/outdoorAGV/src /home/amy/Desktop/outdoorAGV/src/hipnuc_imu/serial/tests /home/amy/Desktop/outdoorAGV/build /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial/tests /home/amy/Desktop/outdoorAGV/build/hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hipnuc_imu/serial/tests/CMakeFiles/serial-test.dir/depend
 

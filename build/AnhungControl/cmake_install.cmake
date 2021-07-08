@@ -1,8 +1,8 @@
-# Install script for directory: /home/amy/Desktop/outdoor_AGV/src/AnhungControl
+# Install script for directory: /home/amy/Desktop/outdoorAGV/src/AnhungControl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/amy/Desktop/outdoor_AGV/install")
+  set(CMAKE_INSTALL_PREFIX "/home/amy/Desktop/outdoorAGV/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,59 +39,59 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/AnhungControl/msg" TYPE FILE FILES
-    "/home/amy/Desktop/outdoor_AGV/src/AnhungControl/msg/Node_recv.msg"
-    "/home/amy/Desktop/outdoor_AGV/src/AnhungControl/msg/traffic_recv.msg"
-    "/home/amy/Desktop/outdoor_AGV/src/AnhungControl/msg/state.msg"
-    "/home/amy/Desktop/outdoor_AGV/src/AnhungControl/msg/joystick.msg"
-    "/home/amy/Desktop/outdoor_AGV/src/AnhungControl/msg/Battery.msg"
-    "/home/amy/Desktop/outdoor_AGV/src/AnhungControl/msg/setmap_ctr.msg"
+    "/home/amy/Desktop/outdoorAGV/src/AnhungControl/msg/Node_recv.msg"
+    "/home/amy/Desktop/outdoorAGV/src/AnhungControl/msg/traffic_recv.msg"
+    "/home/amy/Desktop/outdoorAGV/src/AnhungControl/msg/state.msg"
+    "/home/amy/Desktop/outdoorAGV/src/AnhungControl/msg/joystick.msg"
+    "/home/amy/Desktop/outdoorAGV/src/AnhungControl/msg/Battery.msg"
+    "/home/amy/Desktop/outdoorAGV/src/AnhungControl/msg/setmap_ctr.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/AnhungControl/cmake" TYPE FILE FILES "/home/amy/Desktop/outdoor_AGV/build/AnhungControl/catkin_generated/installspace/AnhungControl-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/AnhungControl/cmake" TYPE FILE FILES "/home/amy/Desktop/outdoorAGV/build/AnhungControl/catkin_generated/installspace/AnhungControl-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/amy/Desktop/outdoor_AGV/devel/include/AnhungControl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/amy/Desktop/outdoorAGV/devel/include/AnhungControl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/amy/Desktop/outdoor_AGV/devel/share/roseus/ros/AnhungControl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/amy/Desktop/outdoorAGV/devel/share/roseus/ros/AnhungControl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/amy/Desktop/outdoor_AGV/devel/share/common-lisp/ros/AnhungControl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/amy/Desktop/outdoorAGV/devel/share/common-lisp/ros/AnhungControl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/amy/Desktop/outdoor_AGV/devel/share/gennodejs/ros/AnhungControl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/amy/Desktop/outdoorAGV/devel/share/gennodejs/ros/AnhungControl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/amy/Desktop/outdoor_AGV/devel/lib/python2.7/dist-packages/AnhungControl")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/amy/Desktop/outdoorAGV/devel/lib/python2.7/dist-packages/AnhungControl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/amy/Desktop/outdoor_AGV/devel/lib/python2.7/dist-packages/AnhungControl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/amy/Desktop/outdoorAGV/devel/lib/python2.7/dist-packages/AnhungControl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/amy/Desktop/outdoor_AGV/build/AnhungControl/catkin_generated/installspace/AnhungControl.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/amy/Desktop/outdoorAGV/build/AnhungControl/catkin_generated/installspace/AnhungControl.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/AnhungControl/cmake" TYPE FILE FILES "/home/amy/Desktop/outdoor_AGV/build/AnhungControl/catkin_generated/installspace/AnhungControl-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/AnhungControl/cmake" TYPE FILE FILES "/home/amy/Desktop/outdoorAGV/build/AnhungControl/catkin_generated/installspace/AnhungControl-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/AnhungControl/cmake" TYPE FILE FILES
-    "/home/amy/Desktop/outdoor_AGV/build/AnhungControl/catkin_generated/installspace/AnhungControlConfig.cmake"
-    "/home/amy/Desktop/outdoor_AGV/build/AnhungControl/catkin_generated/installspace/AnhungControlConfig-version.cmake"
+    "/home/amy/Desktop/outdoorAGV/build/AnhungControl/catkin_generated/installspace/AnhungControlConfig.cmake"
+    "/home/amy/Desktop/outdoorAGV/build/AnhungControl/catkin_generated/installspace/AnhungControlConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/AnhungControl" TYPE FILE FILES "/home/amy/Desktop/outdoor_AGV/src/AnhungControl/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/AnhungControl" TYPE FILE FILES "/home/amy/Desktop/outdoorAGV/src/AnhungControl/package.xml")
 endif()
 

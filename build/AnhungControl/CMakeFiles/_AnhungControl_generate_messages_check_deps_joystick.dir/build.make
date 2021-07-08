@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amy/Desktop/outdoor_AGV/src
+CMAKE_SOURCE_DIR = /home/amy/Desktop/outdoorAGV/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amy/Desktop/outdoor_AGV/build
+CMAKE_BINARY_DIR = /home/amy/Desktop/outdoorAGV/build
 
 # Utility rule file for _AnhungControl_generate_messages_check_deps_joystick.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/amy/Desktop/outdoor_AGV/build
 include AnhungControl/CMakeFiles/_AnhungControl_generate_messages_check_deps_joystick.dir/progress.make
 
 AnhungControl/CMakeFiles/_AnhungControl_generate_messages_check_deps_joystick:
-	cd /home/amy/Desktop/outdoor_AGV/build/AnhungControl && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py AnhungControl /home/amy/Desktop/outdoor_AGV/src/AnhungControl/msg/joystick.msg 
+	cd /home/amy/Desktop/outdoorAGV/build/AnhungControl && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py AnhungControl /home/amy/Desktop/outdoorAGV/src/AnhungControl/msg/joystick.msg 
 
 _AnhungControl_generate_messages_check_deps_joystick: AnhungControl/CMakeFiles/_AnhungControl_generate_messages_check_deps_joystick
 _AnhungControl_generate_messages_check_deps_joystick: AnhungControl/CMakeFiles/_AnhungControl_generate_messages_check_deps_joystick.dir/build.make
@@ -67,10 +67,10 @@ AnhungControl/CMakeFiles/_AnhungControl_generate_messages_check_deps_joystick.di
 .PHONY : AnhungControl/CMakeFiles/_AnhungControl_generate_messages_check_deps_joystick.dir/build
 
 AnhungControl/CMakeFiles/_AnhungControl_generate_messages_check_deps_joystick.dir/clean:
-	cd /home/amy/Desktop/outdoor_AGV/build/AnhungControl && $(CMAKE_COMMAND) -P CMakeFiles/_AnhungControl_generate_messages_check_deps_joystick.dir/cmake_clean.cmake
+	cd /home/amy/Desktop/outdoorAGV/build/AnhungControl && $(CMAKE_COMMAND) -P CMakeFiles/_AnhungControl_generate_messages_check_deps_joystick.dir/cmake_clean.cmake
 .PHONY : AnhungControl/CMakeFiles/_AnhungControl_generate_messages_check_deps_joystick.dir/clean
 
 AnhungControl/CMakeFiles/_AnhungControl_generate_messages_check_deps_joystick.dir/depend:
-	cd /home/amy/Desktop/outdoor_AGV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amy/Desktop/outdoor_AGV/src /home/amy/Desktop/outdoor_AGV/src/AnhungControl /home/amy/Desktop/outdoor_AGV/build /home/amy/Desktop/outdoor_AGV/build/AnhungControl /home/amy/Desktop/outdoor_AGV/build/AnhungControl/CMakeFiles/_AnhungControl_generate_messages_check_deps_joystick.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/amy/Desktop/outdoorAGV/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amy/Desktop/outdoorAGV/src /home/amy/Desktop/outdoorAGV/src/AnhungControl /home/amy/Desktop/outdoorAGV/build /home/amy/Desktop/outdoorAGV/build/AnhungControl /home/amy/Desktop/outdoorAGV/build/AnhungControl/CMakeFiles/_AnhungControl_generate_messages_check_deps_joystick.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : AnhungControl/CMakeFiles/_AnhungControl_generate_messages_check_deps_joystick.dir/depend
 
